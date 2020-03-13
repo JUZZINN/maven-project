@@ -16,7 +16,7 @@ pipeline{
                 sucsess {
 
                     echo "Now archiving..."
-                    archieveArtifacts artifcats: '**/*.war'
+                    archieveArtifacts artifacts: '**/*.war'
                 }
             }
         }
